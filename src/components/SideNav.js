@@ -58,8 +58,24 @@ export const links = [
         to: "/developers/docs/networks/",
       },
       {
-        title: "Mining",
-        to: "/developers/docs/mining/",
+        title: "Consensus protocols",
+        to: "/developers/docs/consensus-protocols/",
+        items: [
+          {
+            title: "Proof of work",
+            to: "/developers/docs/consensus-protocols/pow/",
+            items: [
+              {
+                title: "Mining",
+                to: "/developers/docs/consensus-protocols/pow/mining/",
+              },
+            ],
+          },
+          {
+            title: "Proof of stake",
+            to: "/developers/docs/consensus-protocols/pos/",
+          },
+        ],
       },
     ],
   },
